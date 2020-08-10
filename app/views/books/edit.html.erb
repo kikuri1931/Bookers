@@ -3,6 +3,7 @@
 </p>
 <h1>Editing Book</h1>
 <%= form_for(@book) do |f| %>
+	<%= render 'layouts/error_messages', model: f.object %>
 	<div class="form">
 		<label>Title</label><br>
 		<%= f.text_field :title %>

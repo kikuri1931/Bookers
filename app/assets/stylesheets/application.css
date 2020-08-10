@@ -62,3 +62,10 @@ textarea {
 	margin: 33px;
 	color: #008000;
 }
+.alert-warning {
+	margin-bottom:20px;
+	padding: 7px 7px 0;
+}
+h3 {
+	background-color: red;
+}
