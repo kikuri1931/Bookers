@@ -62,10 +62,30 @@ textarea {
 	margin: 33px;
 	color: #008000;
 }
-.alert-warning {
-	margin-bottom:20px;
-	padding: 7px 7px 0;
+#error_explanation {
+	background-color: #f0f0f0;
+    width: 450px;
+    margin-bottom: 20px;
 }
-h3 {
+.error-message {
+	font-size: 12px;
+    background-color: #c00;
+    line-height: 30px;
+    margin: 0;
+    color: white;
+    padding-left: 7px;
+}
+.error-list {
+	padding: 33px;
+    padding-left: 33px;
+}
+.field_with_errors {
 	background-color: red;
+    display: table;
+    padding: 2px
+}
+.form .field_with_errors {
+	background-color: red;
+    display: table;
+    padding: 2px
 }
